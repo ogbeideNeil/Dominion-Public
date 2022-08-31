@@ -27,3 +27,13 @@ Attack: X
 Secondary Attack: Y
 Dodge: A
 Run: Push Left Stick
+
+## Creators
+
+**Nathan Farrell Lynn**
+  
+**Aidan Bligh**
+  
+**Neil Ogbeide**
+**Jack Maguire**
+**Vilandas Morrissey**
