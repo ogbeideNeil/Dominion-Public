@@ -1,0 +1,1 @@
+Keep Cinemachine Track as the topmost track.

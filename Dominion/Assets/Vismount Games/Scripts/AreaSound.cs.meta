@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 868df24a812d50348b5dbb8fe8a3637e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - onCutsceneStart: {fileID: 11400000, guid: 8bc9d7f02ca828b4793df75e44150b18, type: 2}
+  - onCutsceneFinish: {fileID: 11400000, guid: 7e5d3a55629faad4c8a268a3af17cbbd, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df6d472cb3ddb6442b65f53b2711ef68, type: 3}
+  m_Name: MineCutsceneEvents
+  m_EditorClassIdentifier: 
+  Name: 
+  Description: 
+  Value:
+    time: 0
+    gameEvent: {fileID: 0}
+  list:
+  - time: 6
+    gameEvent: {fileID: 11400000, guid: 38484b2e387c4db4d92025cbccedf1e2, type: 2}
+  - time: 18
+    gameEvent: {fileID: 11400000, guid: f5f99efec6e8e5843819d214d545d590, type: 2}
+  previousCount: 2

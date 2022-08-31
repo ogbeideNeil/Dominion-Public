@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: PlayerActions
+  m_EditorClassIdentifier: Assembly-CSharp:GD.ScriptableTypes:InputActionAssetVariable
+  Name: Player Actions
+  Description: 
+  Value: {fileID: -944628639613478452, guid: 52edda9c0665c0045bf747bb8c035168, type: 3}

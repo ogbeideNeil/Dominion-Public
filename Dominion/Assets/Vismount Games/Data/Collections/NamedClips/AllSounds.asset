@@ -1,0 +1,1119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 807d85b9e95347c41806f2b4b1a87016, type: 3}
+  m_Name: AllSounds
+  m_EditorClassIdentifier: 
+  Name: 
+  Description: 
+  Value:
+    name: 
+    clip: {fileID: 0}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  list:
+  - name: EmpireCutscene
+    clip: {fileID: 8300000, guid: 4472305341166bb42b37ebbeb2b79d97, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: CombatMusic
+    clip: {fileID: 8300000, guid: 6eb11e5009277fb458042326362e63d5, type: 3}
+    volume: 0.7
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 1
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: MainMenuMusic
+    clip: {fileID: 8300000, guid: 4eb0dffc2f1ddad40a6a674f4a077386, type: 3}
+    volume: 0.8
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 1
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: NonCombatMusic
+    clip: {fileID: 8300000, guid: 25013b12aae88ce4c8f9abdfe59a654f, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 1
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiAttack1
+    clip: {fileID: 8300000, guid: 0f8b00e1f56eda149999390d30c533d4, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiAttack2
+    clip: {fileID: 8300000, guid: 9b323c757d5d7b34eaeae988a1f41fdb, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiAttack3
+    clip: {fileID: 8300000, guid: cb9d202aea4eb5048a96dc1a6ee30153, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiBigAttack
+    clip: {fileID: 8300000, guid: 1a312b1e5ad29ec40800812eca628048, type: 3}
+    volume: 0.2
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiAirAttack
+    clip: {fileID: 8300000, guid: 33639a2e984a81c4cadfefc12e6bb514, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiBigSwing
+    clip: {fileID: 8300000, guid: bf231f583af4a0a489b1e9c1959a34f7, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiJump
+    clip: {fileID: 8300000, guid: 65117c8c438a4cc4a9873c424cebda58, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiStep1
+    clip: {fileID: 8300000, guid: 3efda28875519d14c867f2e6c0f3e269, type: 3}
+    volume: 0.1
+    pitch: 0.5
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiStep2
+    clip: {fileID: 8300000, guid: b58e1735d7dd76441bcf32ccf1116abe, type: 3}
+    volume: 0.3
+    pitch: 0.5
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiStep3
+    clip: {fileID: 8300000, guid: 05ffdd0b84650234c8be8bfa8553e3ad, type: 3}
+    volume: 0.3
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreeLine1
+    clip: {fileID: 8300000, guid: e80dbd3046c4cbf40b74b651e8029fc1, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreeLineAttack
+    clip: {fileID: 8300000, guid: ae53c4a396ce0c94f95b6d80632c903c, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreeLine3
+    clip: {fileID: 8300000, guid: 48f13a3b443ffa34ea4aa2ff75d1a733, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: MineLine
+    clip: {fileID: 8300000, guid: 61f9af16b64cd9d4aadbb9e5ffae187a, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: CampLine
+    clip: {fileID: 8300000, guid: aaa721690ed83c94780990c0a476bb78, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: EndLine1
+    clip: {fileID: 8300000, guid: 96fd7f9e16886cf4796e3e82f354ccd5, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: EndLine2
+    clip: {fileID: 8300000, guid: be0b72fd449bb564f9a593fa32499923, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: EndLine3
+    clip: {fileID: 8300000, guid: fbb9d775f26d94049914f81fdc933f35, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: BirdSong
+    clip: {fileID: 8300000, guid: 479b7bdd212adf0478c3d35cc329b8d6, type: 3}
+    volume: 0.65
+    pitch: 0.8
+    minDistance: 1
+    maxDistance: 700
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Waterfall
+    clip: {fileID: 8300000, guid: f5b5430c479f6204d9cf3d769f341e70, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 150
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 1
+  - name: OceanAmbience
+    clip: {fileID: 8300000, guid: 23d0a1305d095064dac78bb4a280a679, type: 3}
+    volume: 0.1
+    pitch: 0.6
+    minDistance: 1
+    maxDistance: 100
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 1
+  - name: GemSong
+    clip: {fileID: 8300000, guid: ac23c09ed8ae93249b3c676e9fd5df31, type: 3}
+    volume: 0.5
+    pitch: 1
+    minDistance: 1
+    maxDistance: 25
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: RuneSound
+    clip: {fileID: 8300000, guid: 298b7db3f3197fb44a149483848c6b09, type: 3}
+    volume: 0.1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 20
+    volumeRolloff: 0
+  - name: ConstantWind
+    clip: {fileID: 8300000, guid: 1a6d64b125300c841899baa765caca4a, type: 3}
+    volume: 0.2
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: RiverWater
+    clip: {fileID: 8300000, guid: 83bdfe5bc630a2b429f8f6f5e754d744, type: 3}
+    volume: 0.2
+    pitch: 1
+    minDistance: 1
+    maxDistance: 120
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 10
+    volumeRolloff: 1
+  - name: NewForestSong
+    clip: {fileID: 8300000, guid: cc95e013ca759d84c9d1831d2b218ea6, type: 3}
+    volume: 0.8
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: RuneStart
+    clip: {fileID: 8300000, guid: 32bda4901f18b7d4381866fecee3d412, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: RiverFlow
+    clip: {fileID: 8300000, guid: 0805ed547b300414997c0db1b3b0e891, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Coughing
+    clip: {fileID: 8300000, guid: ce0207d091ea8d54ba9be0abf05acf44, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: DoorOpen
+    clip: {fileID: 8300000, guid: fa776357273bc9d4fb75d6521570993b, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Battle
+    clip: {fileID: 8300000, guid: 7ddbcc6a7fe4bb045a981feab918463c, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Screams
+    clip: {fileID: 8300000, guid: 026ac5754343153489bd9efe61239d42, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Crying
+    clip: {fileID: 8300000, guid: ec20c83c42a0ab6439673781194aef00, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: Mining
+    clip: {fileID: 8300000, guid: c11f33adbf9d66f4d9e92977032a34a9, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OphiSkillAttack
+    clip: {fileID: 8300000, guid: 8e8a22cda76271b40b7963152dcd81f8, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: BarkAndNoBite
+    clip: {fileID: 8300000, guid: e80a12aa509af5342b4aad4344600edf, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: OrderKnows
+    clip: {fileID: 8300000, guid: 89d69f7fe9301064cb1fa639b1e15ee5, type: 3}
+    volume: 0.5
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TheyreDown
+    clip: {fileID: 8300000, guid: 12e9c75ba888cce408406d3aa4efc3b8, type: 3}
+    volume: 0.8
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: WordForYou
+    clip: {fileID: 8300000, guid: f2af3f399c6792741b9d42a7087d6a61, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: PottedPlant
+    clip: {fileID: 8300000, guid: d61358322696a954ab20a2f26383ff1f, type: 3}
+    volume: 0.5
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: SummonSpirit
+    clip: {fileID: 8300000, guid: b4dd5f7c46ef6fa4bbb8f765c164848f, type: 3}
+    volume: 0.6
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: ToHelp
+    clip: {fileID: 8300000, guid: eeaa0450841f62145bd623e697b8e984, type: 3}
+    volume: 0.3
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: GolemStep
+    clip: {fileID: 8300000, guid: 9e95c05aefad23c4087017b8cfa1bb1a, type: 3}
+    volume: 0.7
+    pitch: 1
+    minDistance: 1
+    maxDistance: 20
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0.99
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreantStep
+    clip: {fileID: 8300000, guid: 90e55b1e6e6dd0b4faf41b6acac90292, type: 3}
+    volume: 0.05
+    pitch: 0.7
+    minDistance: 1
+    maxDistance: 50
+    loop: 0
+    useDefaultSettings: 0
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 0
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 1
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 2
+  - name: OphiGetHit
+    clip: {fileID: 8300000, guid: 240f15d1c64bed44ea8d37c38c55b34a, type: 3}
+    volume: 0.5
+    pitch: 1
+    minDistance: 1
+    maxDistance: 50
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreantHit1
+    clip: {fileID: 8300000, guid: 46c9aaaf5e55db74380a01360663c55e, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: TreantHit2
+    clip: {fileID: 8300000, guid: 7adf230231ab875419f7b2057bdeced0, type: 3}
+    volume: 0.4
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: GolemRoar
+    clip: {fileID: 8300000, guid: 5e0a1018dea5a4941b3e8dd81f28e42a, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: GolemCliffJump
+    clip: {fileID: 8300000, guid: 8cfa58a4da616dd43ae9c3af1e946310, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  - name: IntroCutscene
+    clip: {fileID: 8300000, guid: d0bc641abf557df45a2e2a73301cd17e, type: 3}
+    volume: 1
+    pitch: 1
+    minDistance: 1
+    maxDistance: 500
+    loop: 0
+    useDefaultSettings: 1
+    mute: 0
+    bypassEffects: 0
+    bypassListenerEffects: 0
+    bypassReverbZones: 0
+    playOnAwake: 1
+    priority: 128
+    stereoPan: 0
+    spatialBlend: 0
+    reverbZoneMix: 1
+    dopplerLevel: 1
+    spread: 0
+    volumeRolloff: 0
+  previousCount: 54
